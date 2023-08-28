@@ -117,10 +117,10 @@ async def gen_thumb(videoid, user_id):
         background.paste(image3, (0, 0), mask=image3)
 
         draw = ImageDraw.Draw(background)
-        font = ImageFont.truetype("AnonXMusic/assets/font2.ttf", 45)
-        ImageFont.truetype("AnonXMusic/assets/font2.ttf", 70)
-        arial = ImageFont.truetype("AnonXMusic/assets/font2.ttf", 76)
-        ImageFont.truetype("AnonXMusic/assets/font.ttf", 30)
+        font = ImageFont.truetype("AnonX/assets/font2.ttf", 45)
+        ImageFont.truetype("AnonX/assets/font2.ttf", 70)
+        arial = ImageFont.truetype("AnonX/assets/font2.ttf", 76)
+        ImageFont.truetype("AnonX/assets/font.ttf", 30)
         para = textwrap.wrap(title, width=26)
         try:
             draw.text(
@@ -267,10 +267,10 @@ async def gen_qthumb(videoid, user_id):
         background.paste(image3, (0, 0), mask=image3)
 
         draw = ImageDraw.Draw(background)
-        font = ImageFont.truetype("AnonXMusic/assets/font2.ttf", 45)
-        ImageFont.truetype("AnonXMusic/assets/font2.ttf", 70)
-        arial = ImageFont.truetype("AnonXMusic/assets/font2.ttf", 76)
-        ImageFont.truetype("AnonXMusic/assets/font.ttf", 30)
+        font = ImageFont.truetype("AnonX/assets/font2.ttf", 45)
+        ImageFont.truetype("AnonX/assets/font2.ttf", 70)
+        arial = ImageFont.truetype("AnonX/assets/font2.ttf", 76)
+        ImageFont.truetype("AnonX/assets/font.ttf", 30)
         para = textwrap.wrap(title, width=26)
         try:
             draw.text(
